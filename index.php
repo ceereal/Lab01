@@ -1,12 +1,5 @@
 <?php
- $temp = 'Celia. ';
- echo 'Hi, my name is ';
- echo $temp;
- $temp = 'amazing. ';
- echo " I am ";
- echo $temp;
- $temp = 10;
- echo 'my awesomeness level is ';
- echo $temp;
-
-
+$name = "Jim";
+$what = "geek";
+$level = 10;
+echo 'Hi, my name is '.$name,'. and I am a level '.$level.' '.$what;

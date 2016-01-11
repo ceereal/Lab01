@@ -3,8 +3,17 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Celia's Tic Tac Toe Game</title>
+        <!-- 
+        ACIT 4850 
+        Lab 1
+        Celia Lee 
+        A00847680 
+        Set B 
+        -->
     </head>
     <body>
+        Welcome to Celia's Tic-Tac-Toe Game.
+        <br><br>
         <?php
         if (!isset($_GET['board'])) {
             $squares = '---------';
@@ -64,7 +73,6 @@
             }
 
             function display() {
-                echo '<p>Welcome to George, the evil Tic-Tac-Toe Game.</p>';
                 echo '<table cols="3" style="font-size:large; font-weight:bold;">';
                 echo '<tr>'; //open the first row
                 for ($pos = 0; $pos < 9; $pos++) {
